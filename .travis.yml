@@ -1,0 +1,2 @@
+language: python
+before_deploy: make release-travis
