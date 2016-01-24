@@ -1,5 +1,5 @@
 PROJECT_NAME = service.pausespotify
-RELEASE_VERSION = 0.1.0
+RELEASE_VERSION = 0.1.2
 
 release: clean
 	mkdir -p $(PROJECT_NAME)
