@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="service.pausespotify"
+       name="Pause Spotify Service"
+       version="0.1.0"
+       provider-name="Christian Jurke">
+  <requires>
+    <import addon="xbmc.addon" version="14.0.0"/>
+    <import addon="xbmc.python" version="2.19.0"/>
+  </requires>
+  <extension point="xbmc.service"
+             library="default.py" start="startup">
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Pause Spotify Service</summary>
+    <description lang="en">This addon automatically pauses your spotify client using its dbus mpris interface when kodi starts playing a file.</description>
+    <disclaimer lang="en">Icon made by www.freepik.com from www.flaticon.com is licensed under Creative Commons BY 3.0</disclaimer>
+    <platform>linux</platform>
+    <license>GPL v2</license>
+  </extension>
+</addon>

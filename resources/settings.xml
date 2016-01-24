@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+	<category label="Basic">
+		<setting id="play_after_pause_time"
+			type="labelenum"
+			label="Resume if file finished after x seconds"
+			values="10|30|60"
+			default="30" />
+	</category>
+</settings>
