@@ -5,7 +5,7 @@ deploy:
   provider: releases
   api_key:
     secure: "FQrBVRMNGzfPxqbI7vCmnfZWVVe1pjNY7fbyi6juTY1XDLgK0tgjvjwoEHjLU8joR15AHn6n5bVlK0rf14R6gynKyQx/yRw5nph3gHGAU26u+xn0IY9stTweikGpH6bTdOT9GJACWSSyXaoBV49IgXdON6+SMLEpd5S3y53E1lwtLWe+F8IlngWTf2T8eegolXlpbFSe+27tLV6ESuab2W5iRR4giWZQIE9K6k1Zc6q6WrIKTd0r9AE7IO0dlrHzsrD6+A17rkcoTz6wfgyZNfAf8N1Huo0ItovJ5UU9dJ6wOD7WLcP9mIh8Iee2+Bxg1Rwv/DlYma3PZK9+b3AAkr8lrayQ5k3T393sN723JWv4GxYYQ2oWycPxIWAk89fmpHoVvvZ/4uEEz520olGaI6Odd6IQ5saht0MapYHgCDd31eAAjey4jLsFAkllWofwpB3VdeQV37mrwWghr2fV24yoW/jYaBz968DxHG2CQXeHLOG3yNoRBrjv/UTHzwqMZYRSWHMIdxcBdZsW9BSyu/f8muczgGhOfi0FxnwYIL9CgbrZ9FpxhyUJxgtBdDn061Og53/VnizX+UpFIyGNo4mEmuQCgTYMxtvcyGgwqBiWLQ/+QDH6LqnMVMtWFanAdoXgmeudC9YrCHzqxxfKvR3IT+Wqbd+8yIAqfj7auXU="
-  file: "*.zip"
+  file: "service.pausespotify-$TRAVIS_TAG.zip"
   skip_cleanup: true
   on:
     tags: true
